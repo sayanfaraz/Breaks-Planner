@@ -1,0 +1,18 @@
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\LifePlanner\Life Planner\bin\Debug\Life Planner.exe.config
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\LifePlanner\Life Planner\bin\Debug\Life Planner.exe
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\LifePlanner\Life Planner\bin\Debug\Life Planner.pdb
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\LifePlanner\Life Planner\obj\Debug\Life Planner.csprojResolveAssemblyReference.cache
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\LifePlanner\Life Planner\obj\Debug\Life_Planner.Form1.resources
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\LifePlanner\Life Planner\obj\Debug\Life_Planner.Properties.Resources.resources
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\LifePlanner\Life Planner\obj\Debug\Life Planner.csproj.GenerateResource.Cache
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\LifePlanner\Life Planner\obj\Debug\Life Planner.exe
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\LifePlanner\Life Planner\obj\Debug\Life Planner.pdb
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\Breaks-Planner\LifePlanner\Life Planner\bin\Debug\Life Planner.exe.config
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\Breaks-Planner\LifePlanner\Life Planner\obj\Debug\Life Planner.exe
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\Breaks-Planner\LifePlanner\Life Planner\obj\Debug\Life Planner.pdb
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\Breaks-Planner\LifePlanner\Life Planner\bin\Debug\Life Planner.exe
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\Breaks-Planner\LifePlanner\Life Planner\bin\Debug\Life Planner.pdb
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\Breaks-Planner\LifePlanner\Life Planner\obj\Debug\Life Planner.csprojResolveAssemblyReference.cache
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\Breaks-Planner\LifePlanner\Life Planner\obj\Debug\Life_Planner.Form1.resources
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\Breaks-Planner\LifePlanner\Life Planner\obj\Debug\Life_Planner.Properties.Resources.resources
+C:\Users\Admin\SkyDrive\Documents\My Files\Innovations and Designs\Programs and App Designs\Life Planner App\Breaks-Planner\LifePlanner\Life Planner\obj\Debug\Life Planner.csproj.GenerateResource.Cache
