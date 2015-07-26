@@ -16,26 +16,35 @@ namespace Life_Planner
         // INIT NEW PERSON
         Person user;
 
+        // FORM CONSTRUCTOR
         public Form1()
         {
             InitializeComponent();
             user = new Person(true, 1);
         }
 
+        // CLICK DRINK BUTTON
         private void drink_button_Click(object sender, EventArgs e)
         {
+            // takes in text in the # of cups drunk text input
             string text = drink_input_textBox.Text;
-            float x = 0;
-            if (float.TryParse(text, out x))
+            // set up fluids float
+            float fluids = 0;
+            // try parsing text into float. if you can, then update amount drunk
+            if (float.TryParse(text, out fluids))
             {
-                user.Cups_drunk += x;
+                user.Cups_drunk += fluids;
                 fluids_meter_label.Text = user.Cups_drunk.ToString() + " / 9 cups drunk";
             }
         }
 
+        // WORK BUTTON
         private void work_button_Click(object sender, EventArgs e)
         {
+            // can't start working again during a current work session, so disable button
             work_button.Enabled = false;
+
+            // start stopwatch
             user.Elapsed_time.Start();
 
             elapsed_time_backgroundWorker.RunWorkerAsync();

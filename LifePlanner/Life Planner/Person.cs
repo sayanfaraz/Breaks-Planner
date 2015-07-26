@@ -4,10 +4,10 @@ using System.Diagnostics;
 public class Person
 {
     // VARIABLES
-    private bool gender;
-    private float cups_drunk;
-    private int work_time_msecs;
-    private Stopwatch elapsed_time;
+    private bool gender; // stores gender of user (used to determine how many cups of water they need)
+    private float cups_drunk; // stores number of cups drunk so far
+    private int work_time_msecs; // how long they want to work before needing a break
+    private Stopwatch elapsed_time; // Stopwatch measuring how long they have worked so far
 
     // GETTERS, SETTERS
 
@@ -63,6 +63,7 @@ public class Person
         }
     }
 
+    // CONSTRUCTOR
     public Person(bool inp_gender, int inp_work_time_mins)
     {
         Gender = inp_gender;
