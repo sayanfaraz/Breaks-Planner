@@ -34,7 +34,6 @@
             this.time_till_break_label = new System.Windows.Forms.Label();
             this.drink_input_textBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.elapsed_time_backgroundWorker = new System.ComponentModel.BackgroundWorker();
             this.SuspendLayout();
             // 
             // work_button
@@ -103,10 +102,6 @@
             this.label3.Text = "cups";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // elapsed_time_backgroundWorker
-            // 
-
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -135,7 +130,6 @@
         private System.Windows.Forms.Label time_till_break_label;
         private System.Windows.Forms.TextBox drink_input_textBox;
         private System.Windows.Forms.Label label3;
-        private System.ComponentModel.BackgroundWorker elapsed_time_backgroundWorker;
     }
 }
 
