@@ -51,28 +51,51 @@ namespace Life_Planner
             work_button.Enabled = false;
 
             // init work_Thread
-            work_Thread = new Thread(timer_Run);
-            work_Thread.Start();
+            //work_Thread = new Thread(timer_Run);
 
             // start stopwatch
             user.Elapsed_time.Start();
 
-            
-            // break time! we have to reset everything
+            // init data
+            int current_time = (int)user.Elapsed_time.ElapsedMilliseconds;
+            string output_str = user.Elapsed_time.Elapsed.Hours.ToString() + ":" + user.Elapsed_time.Elapsed.Minutes.ToString() + user.Elapsed_time.Elapsed.Seconds.ToString() + " until break";
+
+            //while (current_time < 1000)
+            //{
+            //    time_till_break_label.Text = output_str;
+            //    //this.time_till_break_label.SetText(output_str);
+            //    //Thread.Sleep(1000);
+
+            //    // update data
+            //    current_time = (int)user.Elapsed_time.ElapsedMilliseconds;
+            //    output_str = user.Elapsed_time.Elapsed.Hours.ToString() + ":" + user.Elapsed_time.Elapsed.Minutes.ToString() + user.Elapsed_time.Elapsed.Seconds.ToString() + " until break";
+            //}
+
+            timer_Run();
+
+            //// start work_Thread
+            //work_Thread.Start();
+
+            //// break time! we have to reset everything
             work_button.Enabled = true;
-            user.Elapsed_time.Reset();
+            //user.Elapsed_time.Reset();
         }
 
         private void timer_Run()
         {
+            // init data
             int current_time = (int)user.Elapsed_time.ElapsedMilliseconds;
-            string output_str = user.Elapsed_time.Elapsed.Hours.ToString() + ":" + user.Elapsed_time.Elapsed.Minutes.ToString() + " until break";
+            string output_str = user.Elapsed_time.Elapsed.Hours.ToString() + ":" + user.Elapsed_time.Elapsed.Minutes.ToString() + user.Elapsed_time.Elapsed.Seconds.ToString() + " until break";
 
             while (user.Work_time_msecs > current_time)
             {
-                System.Windows.Forms.MessageBox.Show(output_str);
-                //this.time_till_break_label.SetText(output_str);
-                Thread.Sleep(1000);
+                //System.Windows.Forms.MessageBox.Show(output_str);
+                this.SetText(output_str);
+                //Thread.Sleep(1);
+
+                // update data
+                current_time = (int)user.Elapsed_time.ElapsedMilliseconds;
+                output_str = user.Elapsed_time.Elapsed.Hours.ToString() + ":" + user.Elapsed_time.Elapsed.Minutes.ToString() + user.Elapsed_time.Elapsed.Seconds.ToString() + " until break";
             }
         }
 
