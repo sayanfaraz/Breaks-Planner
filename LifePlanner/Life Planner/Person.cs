@@ -68,7 +68,8 @@ public class Person
     {
         Gender = inp_gender;
         Cups_drunk = 0;
-        Work_time_msecs = inp_work_time_mins * 60 * 1000;
+        //Work_time_msecs = inp_work_time_mins * 60 * 1000;
+        Work_time_msecs = 5000;
         elapsed_time = new Stopwatch();
     }
 
